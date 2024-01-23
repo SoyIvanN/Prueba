@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+}
+.fondo{
+    background-repeat: no-repeat;
+}
+.izq{
+    background-image: url("decoration.png");
+    position: absolute;
+    background-position:top left;
+    width: 100%;
+    height: 100%;
+}
+.der{
+    background-image:url("ribbon.png");
+    position: absolute;
+    background-position: bottom right;
+    width: 100%;
+    height: 100%;
+}
+.grande{
+    background-image: url("old_paper.jpg");
+    position: absolute;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+}
+p{
+    position:absolute;
+    top: 0;
+    right: 0;
+    margin: 10px;
+    font-weight: bold;
+  
+}
